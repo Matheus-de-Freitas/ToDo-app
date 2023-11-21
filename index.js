@@ -1,10 +1,12 @@
-const express = require('express')
+const express = require("express")
+const exphbs = require("express-handlebars")
+
 const app = express()
 
 app.get('/' , (requisicao, resposta) => {
-    resposta.send("Olá mundo")
+    resposta.send("Olá mundo!")
 })
 
 app.listen(3000, () => {
-    console.log("Servidor rodando na porta 3000")
+    console.log("Servidor rodando na porta 3000!")
 })
