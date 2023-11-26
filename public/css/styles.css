@@ -24,8 +24,6 @@
     --info-button-active: #3A7CFD;
 }
 
-
-
 body.dark {
     --bg-header-mobile: url(../imagens/bg-header-mobile-dark.png);
     --bg-header-desktop: url(../imagens/bg-header-desktop-dark.png);
@@ -70,6 +68,12 @@ header div div {
     justify-content: space-between;
 
     margin-bottom: 2.5rem;
+}
+
+header button{
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 header div h1 {
